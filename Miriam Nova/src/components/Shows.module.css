@@ -1,0 +1,39 @@
+.portada_shows {
+    background-image: url(1.jpg);
+    background-size: cover; /* La imagen ocupará todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%; /* Se asegura de que la clase ocupe todo el ancho */
+    height: 80vh; /* Hace que la altura ocupe toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    color: white;
+    font-size: 7vw;
+    font-weight: 200;
+}
+
+.videos {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    width: 70%;
+    gap: 2rem;
+}
+
+.videos_container {
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 2rem;
+    color: white;
+    flex-direction: column;
+
+}

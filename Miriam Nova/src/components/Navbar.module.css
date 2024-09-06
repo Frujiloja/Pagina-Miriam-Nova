@@ -1,13 +1,13 @@
 .navbar {
     background-color: rgb(25, 25, 25);
-    border-bottom: 1px solid pink;
+    border-bottom: 1px solid #ffc0cb;
     position: fixed;
     z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
 }
 
 .desktopnav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 10vh;
     width: 100vw;
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .logo {
-    height: 60px;
+    height: 40px;
     cursor: pointer;
 }
 

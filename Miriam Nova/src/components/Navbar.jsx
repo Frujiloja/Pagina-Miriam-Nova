@@ -12,13 +12,16 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <nav className={styles.desktopnav}>
-        <div>
+        {/* <div>
           <Link to="/">
-            <img src="/Logo png.png" alt="logo" className={styles.logo} />
+            <img src="/Logo full png.png" alt="logo" className={styles.logo} />
           </Link>
-        </div>
+        </div> */}
         <div className={styles.menu}>
           <ul className={styles.menuitems}>
+          <li>
+              <Link to="/">Inicio</Link>
+            </li>
             <li>
               <Link to="/shows">Shows & Eventos</Link>
             </li>
