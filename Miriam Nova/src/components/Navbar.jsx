@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <nav className={styles.desktopnav}>
         <div>
-          <Link to="/home">
+          <Link to="/">
             <img src="/Logo png.png" alt="logo" className={styles.logo} />
           </Link>
         </div>
